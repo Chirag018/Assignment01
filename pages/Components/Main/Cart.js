@@ -1,5 +1,6 @@
 import React from 'react'
 import imgs from '../../assets/imgs.png'
+import Image from 'next/image';
 
 function Cart() {
 
@@ -17,7 +18,7 @@ function Cart() {
             </div>
             <hr />
             <div className='flex'>
-                <img src={imgs} />
+                <Image src={imgs} />
                 <div className='flex flex-col ml-4 my-2'>
                     <span className='uppercase font-bold'>ella .h</span>
                     <span className='capitalize font-sans'>english</span>

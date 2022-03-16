@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import logo from '../assets/logo.png'
 import { FiSearch } from 'react-icons/fi'
 import { BiMenuAltRight } from 'react-icons/bi'
@@ -7,7 +8,7 @@ function Header() {
     return (
         <div className='header flex items-center justify-between border-2'>
             <div className='left flex m-4 px-10'>
-                <img src={logo} />
+                <Image src={logo} alt='logo'/>
                 <div className='pl-1 pt-2'>
                     <h1 className='font-bold '><span className='text-orange-400'>SKILLY</span> TREE</h1>
                     <h6 className='text-xs'>Upskill with a personal touch</h6>

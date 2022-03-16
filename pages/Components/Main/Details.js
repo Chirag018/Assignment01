@@ -1,5 +1,6 @@
 import React from 'react'
 import card from '../../assets/card.png'
+import Image from 'next/image'
 
 function Details() {
     return (
@@ -15,9 +16,9 @@ function Details() {
                 <h6 className='text-xs text-blue-400 mt-2 px-1'>Edit</h6>
             </div>
             <div className='flex relative'>
-                <img src={card} />
+                <Image src={card} />
                 <span className='absolute top-14 left-14 text-justify'>xxxx 4023 <span className='text-white'>VISA</span></span>
-                <img src={card} />
+                <Image src={card} />
                 <span className='absolute top-14 left-80 text-justify'>xxxx 4023</span>
             </div>
             <span className='text-gray-400 top-10'>Other Payent Methods</span>
